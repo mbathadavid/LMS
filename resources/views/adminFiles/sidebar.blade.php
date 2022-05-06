@@ -21,7 +21,7 @@
     </div>
 
     <button class="peoplebtn outline-none fs-5">
-    <i class="fas fa-users"></i>&nbsp;Students & Staff
+    <i class="fas fa-users"></i>&nbsp;People
       <i id="peopleicon" class="fas fa-angle-left"></i><i id="peopleiconup" class="fas fa-angle-down d-none"></i>
     </button>
     <div id="peopledropdown" class="people-dropdown d-none w3-animate-left">

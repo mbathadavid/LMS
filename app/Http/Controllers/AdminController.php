@@ -11,6 +11,7 @@ use App\Models\exam;
 use App\Models\Student;
 use App\Models\Subject;
 use App\Models\Mark;
+use App\Models\School;
 use App\Models\School_Data;
 use App\Models\ResultThread;
 use Illuminate\Support\Facades\Hash;
@@ -20,6 +21,13 @@ use Illuminate\Support\Facades\Validator;
 
 class AdminController extends Controller
 {
+    public function landingpage(){
+        //$schools = School::all();
+        $data = [
+            'schools' => School::all()
+        ];
+        return view('General.landingpage',$data);
+    }
     public function index(){
         return view('admin.adminlogin');
     }

@@ -33,6 +33,7 @@ Route::get('/', function () {
 }); */
 
 /*Admin Routes start*/
+Route::get('/',[AdminController::class, 'landingpage']);
  Route::get('/adminlogin',[AdminController::class, 'index']);
  Route::get('/adminregister',[AdminController::class, 'register']);
  Route::get('/adminresetpass',[AdminController::class, 'resetpass']);

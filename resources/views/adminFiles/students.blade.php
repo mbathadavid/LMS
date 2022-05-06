@@ -332,15 +332,15 @@
 <div class="row border border-3 border-info p-3">
     
 <div class="table-responsive">
-<div id="actionbtns" class="d-none mb-2">
-<button id="promotebtn" class="btn btn-sm btn-warning float-end m-1">Promote Student</button>
-<button id="deactivatebtn" class="btn btn-sm btn-primary float-end m-1">Deactivate</button>
-<button id="activatebtn" class="btn btn-sm btn-success float-end m-1">Activate</button>
-<button id="examsbtn" class="btn btn-sm btn-danger float-end m-1">View Results</button>
-<button id="viewfeesbtn" class="btn btn-sm btn-primary float-end m-1">Fee Information</button>
-<button id="viewbtn" class="btn btn-sm btn-info float-end m-1"><i class="fas fa-eye"></i>&nbsp;View</button>
-<button id="editbtn" class="btn btn-sm btn-warning float-end m-1"><i class="fas fa-edit"></i>&nbsp;Edit</button> 
-<button id="deletebtn" class="btn btn-sm btn-danger float-end m-1"><i class="fas fa-trash-alt"></i>&nbsp;Delete</button> 
+<div id="actionbtns" class="d-none mb-2 d-flex float-end">
+<button id="promotebtn" class="btn btn-sm btn-warning m-1">Promote Student</button>
+<button id="deactivatebtn" class="btn btn-sm btn-primary m-1">Deactivate</button>
+<button id="activatebtn" class="btn btn-sm btn-success m-1">Activate</button>
+<button id="examsbtn" class="btn btn-sm btn-danger m-1">View Results</button>
+<button id="viewfeesbtn" class="btn btn-sm btn-primary m-1">Fee Information</button>
+<button id="viewbtn" class="btn btn-sm btn-info m-1"><i class="fas fa-eye"></i>&nbsp;View</button>
+<button id="editbtn" class="btn btn-sm btn-warning m-1"><i class="fas fa-edit"></i>&nbsp;Edit</button> 
+<button id="deletebtn" class="btn btn-sm btn-danger m-1"><i class="fas fa-trash-alt"></i>&nbsp;Delete</button> 
 </div> 
 <table class="table">
             <thead>
